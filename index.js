@@ -6,7 +6,7 @@
 // Dependencies
 var http = require('http');
 
-// The server should respond all requests with a string
+// The server should respond to all requests with a string
 var server = http.createServer(function(req,res){
 	res.end('Hello Word\n');
 });
